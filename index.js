@@ -1,8 +1,8 @@
-require('dotenv').config();
+require('dotenv').config(); // Load environment variables from .env file
 const express = require('express');
 const connectDB = require('./config/db');
 const userRoutes = require('./routes/userRoutes');
-const { renderError } = require('./views/userView');
+const { renderError } = require('./views/userViews');
 
 const app = express();
 

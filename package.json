@@ -5,7 +5,7 @@
     "mongodb": "^6.17.0",
     "mongoose": "^8.16.0"
   },
-  "name": "mongodb-express",
+  "name": "mongodb-express",  
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

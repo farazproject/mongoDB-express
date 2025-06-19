@@ -1,5 +1,5 @@
 const User = require('../models/userModel');
-const { renderUser, renderUsers, renderError } = require('../views/userView');
+const { renderUser, renderUsers, renderError } = require('../views/userViews');
 
 // Get all users
 exports.getUsers = async (req, res) => {
